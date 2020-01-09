@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.application.Signin"
+    android:background="@drawable/a6">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:hint="Username"
+        android:background="#e7b2b2"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:hint="Password"
+        android:background="#e1a8a8"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="AI-ONE"
+        android:id="@+id/textView5"
+        android:textAlignment="center"
+        android:textColor="#010000"
+        android:textColorHighlight="#911111"
+        android:textSize="36dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignRight="@+id/editText7"
+        android:layout_alignEnd="@+id/editText7"
+        android:height="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ideate Inovate Create"
+        android:id="@+id/textView6"
+        android:textSize="25dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0b0000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:id="@+id/button4"
+        android:textSize="30dp"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="69dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREVIOUS PAGE"
+        android:id="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_below="@+id/textView6" />
+</RelativeLayout>

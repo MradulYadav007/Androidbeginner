@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a6"
+    tools:context=".Aboutdevelopers">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="52dp"
+        android:text="The application app has been made by Mradul yadav and Ravi Raj using the Android studio and java
+The coding work has been done by Mradul Yadav whereas the design work has been done by Ravi Raj.
+For any issues ,contact-
+Mradul yadav
+email-mradul.mr20@gmail.com
+contact-8400572904
+Ravi Raj
+email-rajravi121000@gmail.com
+contact-8676830870"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREVIOUS PAGE"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="3dp" />
+</android.support.constraint.ConstraintLayout>
